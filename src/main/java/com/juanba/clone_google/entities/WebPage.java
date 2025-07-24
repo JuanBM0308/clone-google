@@ -28,4 +28,7 @@ public class WebPage {
 
     private boolean isActive;
 
+    public WebPage(String url) {
+        this.url = url;
+    }
 }
